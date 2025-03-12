@@ -1,0 +1,44 @@
+/* COMMON */
+$mainColor-blue: #083060;
+$mainColor-red: #D90F1A;
+$mainColor-red2: #a21510;
+$mainColor-white: #FFFFFF;
+$mainColor-black: #000000;
+$mainColor1: #D60032;
+$mainColor2: #003A5C;
+$mainColor3: #0076A8;
+$mainColor4: #F05656;
+$mainColor4: #EF7E1A;
+$mainColor-black-op-50:rgba(0, 0, 0, 0.50);
+$mainColor-black-op-70:rgba(0, 0, 0, 0.70);
+$mainColor-black-op-30:rgba(0, 0, 0, 0.30);
+$mainColor-white-op-20: rgba($mainColor-white, 0.30);
+$secondaryColor-grey:#F0F0F0;
+
+
+
+$vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
+
+
+/* BOOTSTRAP */
+$font-family-sans-serif: var(--font-poppins);
+$primary: $mainColor-white;
+$secondary: $mainColor-red;
+// $navbar-light-color: $color3;
+// $navbar-light-hover-color: $color2;
+// $navbar-light-active-color:$color2;
+$container-max-widths: (
+  sm: 540px,
+  md: 770px,
+  lg: 1010px,
+  xl: 1190px,
+  xxl: 1500px
+) !default;
+
+
+
+
+
+
+
+

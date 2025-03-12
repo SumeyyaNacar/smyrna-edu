@@ -1,0 +1,127 @@
+{
+  "HomePage": {
+    "banner-title": "Your Journey to Studying Abroad with Smyrna Edu!",
+    "banner-button": "Book a Free Consultation",
+    "banner-description": "Choose the country you want to study in, select your preferred education program, get a price quote, and contact us! Instantly receive prices for language schools and universities that fit your budget! Explore programs that best suit you!",
+    "banner-video": "video1.mp4",
+
+    "student-reviews-sub-title": "Success Stories",
+    "student-reviews-title": "Our Students Who Achieved Their Dreams",
+    "students": [
+      {
+        "name": "Ahmet",
+        "image": "img.jpg",
+        "description": "I successfully completed my study abroad journey with Smyrna Edu. I wanted to take a language course in the UK, and thanks to Smyrna Edu, I found an affordable school. Thank you, Smyrna Edu!"
+      },
+      {
+        "name": "Ayşe",
+        "image": "image-1.jpg",
+        "description": "I successfully completed my study abroad journey with Smyrna Edu. I wanted to take a language course in the UK, and thanks to Smyrna Edu, I found an affordable school. Thank you, Smyrna Edu!"
+      },
+      {
+        "name": "Mehmet",
+        "image": "image-2.jpg",
+        "description": "I successfully completed my study abroad journey with Smyrna Edu. I wanted to take a language course in the UK, and thanks to Smyrna Edu, I found an affordable school. Thank you, Smyrna Edu!"
+      }
+    ],
+    "process-sub-title": "Offers",
+    "process-title": "Study Abroad with Us!",
+    "process-steps": [
+      {
+        "process-step-sub-title": "Research and Discovery",
+        "process-step-title": "Explore new countries, universities, and programs.",
+        "process-step-description": "Take the opportunity to research the best options for you.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Educational Consultation",
+        "process-step-title": "Define your goals!",
+        "process-step-description": "Make informed decisions with guidance from our consultants! Find the right universities and programs.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Exam Preparation",
+        "process-step-title": "Get ready for exams like IELTS and TOEFL.",
+        "process-step-description": "Join live classes for IELTS, TOEFL, PTE, GMAT, GRE, and SAT.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Meet Universities",
+        "process-step-title": "Interact with World-Renowned Universities.",
+        "process-step-description": "Communicate directly with university representatives and secure your process.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Finances",
+        "process-step-title": "Arrange your flight ticket and health insurance.",
+        "process-step-description": "Focus solely on your goal without getting stuck on processes like flight tickets and health insurance.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Global Payments",
+        "process-step-title": "Don't let currency differences affect tuition fees!",
+        "process-step-description": "Make secure international money transfers through Smyrna EDU.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Visa Application Process",
+        "process-step-title": "Be ready for a hassle-free journey.",
+        "process-step-description": "Leave the visa process management to us and enjoy a smooth journey.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "Student Accommodation",
+        "process-step-title": "Find your home away from home.",
+        "process-step-description": "Discover the best accommodation options that match your lifestyle.",
+        "process-step-image": "img.jpg"
+      },
+      {
+        "process-step-sub-title": "University Enrollment",
+        "process-step-title": "Start your dream academic career!",
+        "process-step-description": "Join the hundreds of students we've helped in achieving their education goals abroad.",
+        "process-step-image": "img.jpg"
+      }
+    ],
+    "university-partners-title": [
+      {
+        "university-partner-name": "Penn University of Pennsylvania",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Columbia University",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Dartmouth University",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Yale University",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Cornell University",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Brown University",
+        "university-partner-image": "img.jpg"
+      },
+      {
+        "university-partner-name": "Princeton University",
+        "university-partner-image": "img.jpg"
+      }
+    ],
+    "sss": [
+      {
+        "sss-main-title": "Frequently Asked Questions",
+        "sss-text": [
+          {
+            "sss-sub-title": "Frequently Asked Questions",
+            "sss-description": "Click here to find answers to frequently asked questions"
+          }
+        ]
+      }
+    ]
+  }
+}

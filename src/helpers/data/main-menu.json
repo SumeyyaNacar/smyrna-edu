@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Ana Sayfa",
+    "link": "/"
+  },
+  {
+    "title": "Hakkımızda",
+    "link": "/about-us"
+  },
+  {
+    "title": "Akademik Programlar",
+    "link": "/academic-programs",
+    "subLinks": [
+      {
+        "title": "Lise",
+        "link": "/highschool"
+      },
+
+      {
+        "title": "Lisans",
+        "link": "/undergraduate"
+      },
+      {
+        "title": "Yüksek Lisans",
+        "link": "/master"
+      },
+      {
+        "title": "Docorate",
+        "link": "/doctorate"
+      },
+      {
+        "title": "Online Üniversite",
+        "link": "/online-university"
+      },
+      {
+        "title": "Exchange",
+        "link": "/exchange"
+      },
+      {
+        "title": "IVY League",
+        "link": "/ivy-league"
+      }
+    ]
+  },
+  {
+    "title": "Hazırlık Programları",
+    "link": "/preparation-programs",
+    "subLinks": [
+      {
+        "title": "Yaz Okulları",
+        "link": "/summer-schools"
+      },
+      {
+        "title": "Dil Okulları",
+        "link": "/language-schools"
+      },
+      {
+        "title": "Work and Study",
+        "link": "/work-and-study"
+      },
+      {
+        "title": "Foundation",
+        "link": "/foundation"
+      },
+      {
+        "title": "Pathway",
+        "link": "/pathway"
+      }
+    ]
+  },
+  {
+    "title": "Ülkeler",
+    "link": "/countries",
+    "subLinks": [
+      {
+        "title": "Amerika",
+        "link": "/america"
+      },
+      {
+        "title": "İngiltere",
+        "link": "/england"
+      },
+      {
+        "title": "Almanya",
+        "link": "/germany"
+      },
+      {
+        "title": "Kanada",
+        "link": "/canada"
+      },
+      {
+        "title": "İtalya",
+        "link": "/italy"
+      },
+      {
+        "title": "Fransa",
+        "link": "/france"
+      },
+      {
+        "title": "Çekya",
+        "link": "/czech-republic"
+      },
+      {
+        "title": "Macaristan",
+        "link": "/hungary"
+      },
+      {
+        "title": "Litvanya",
+        "link": "/lithuania"
+      },
+      {
+        "title": "Dubai",
+        "link": "/dubai"
+      },
+      {
+        "title": "Hollanda",
+        "link": "/netherlands"
+      },
+      {
+        "title": "Avustralya",
+        "link": "/australia"
+      },
+      {
+        "title": "İrlanda",
+        "link": "/ireland"
+      },
+      {
+        "title": "Polonya",
+        "link": "/poland"
+      }
+    ]
+  },
+  {
+    "title": "Uluslarası Sınavlar",
+    "link": "/international-exams",
+    "subLinks": [
+      {
+        "title": "IELTS",
+        "link": "/ielts"
+      },
+      {
+        "title": "TOEFL",
+        "link": "/toefl"
+      },
+      {
+        "title": "PTE",
+        "link": "/pte"
+      },
+      {
+        "title": "GMAT",
+        "link": "/gmat"
+      },
+      {
+        "title": "GRE",
+        "link": "/gre"
+      },
+      {
+        "title": "SAT",
+        "link": "/sat"
+      },
+      {
+        "title": "AP",
+        "link": "/ap"
+      },
+      {
+        "title": "Dualingo",
+        "link": "/dualingo"
+      }
+    ]
+  },
+  {
+    "title": "İletişim",
+    "link": "/contact"
+  }
+]
