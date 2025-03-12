@@ -7,7 +7,7 @@ import Image from "next/image";
 import { appConfig } from "@/helpers/config";
 import MainLogo from "./main-logo";
 import ButtonContactUs from "./contact-us-button";
-
+import LangSwitcher from "../LanguageSwitcher";
 
 const MainMenubar: React.FC = () => {
   return (
@@ -16,11 +16,9 @@ const MainMenubar: React.FC = () => {
       className="bg-body-tertiary shadow menu-links"
       sticky="top"
       collapseOnSelect
-   
     >
       <Container>
-       
-        <MainLogo src="/image/logo/icon-red.png" width={80} height={67}/>
+        <MainLogo src="/image/logo/icon-red.png" width={80} height={67} />
         <Navbar.Toggle aria-controls="main-menubar" />
         <Navbar.Offcanvas
           id="main-menubar"
@@ -39,9 +37,8 @@ const MainMenubar: React.FC = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <MainMenu className="justify-content-center flex-grow-1" />
-          
+            <LangSwitcher />
             <ButtonContactUs />
-          
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>

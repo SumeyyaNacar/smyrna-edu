@@ -10,6 +10,7 @@ export default function HomePage() {
       <h1>{t("banner-title")}</h1>
       <p>{t("banner-description")}</p> */}
       <Banner />
+      
     </div>
   );
 }

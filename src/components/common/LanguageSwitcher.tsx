@@ -1,39 +1,40 @@
 "use client";
-import Link from "next/link";
-import { useRouter } from "next/router";
-
-import {usePathname} from "@/i18n/navigation"; 
-import { routing } from '@/i18n/routing';
-import formats from '@/i18n/request';
-import messages from '../../../messages/en.json';
-
-declare module 'next-intl' {
-  interface Datas {
-    Locale: (typeof routing.locales)[number];
-    Messages: typeof messages;
-    Formats: typeof formats;
-  }
-}
-
+import { Link, routing } from "@/i18n/routing";
+import { useLocale } from "next-intl";
+import { useMemo } from "react";
+import { usePathname } from "next/navigation";
 export default function LangSwitcher() {
-  const router = useRouter();
   const pathname = usePathname();
-  const currentLocale = router.locale;
-
-  return (
-    <div>
-      {routing.locales.map((locale) => (
-        <Link
-          key={locale}
-          href={pathname}
-          locale={locale}
-          className={`px-3 py-1 border rounded ${
-            currentLocale === locale ? "bg-blue-500 text-white" : "bg-gray-200"
-          }`}
-        >
-          {locale.toUpperCase()}
-        </Link>
-      ))}
-    </div>
-  );
+    const locale = useLocale();
+    const getHref = () => {
+        const currentPath = pathname.split("/");
+        let targetPath: string = "/";
+        if (currentPath.length > 2) {
+            targetPath = `/${currentPath.slice(2).join("/")}`;
+        }
+        return targetPath;
+    };
+    const currentLocale = useMemo(
+        () => routing.locales.find((item) => item === locale),
+        [locale]
+    );
+  console.log(currentLocale)
+    return (
+        <div>
+            {routing.locales.map((lang) => (
+                <Link
+                    key={lang}
+          locale={lang}
+                    href={getHref()}
+                    className={`px-3 py-1 border rounded ${
+                        currentLocale === lang
+                            ? "bg-success text-white"
+                            : "bg-secondary"
+                    }`}
+                >
+                    {lang.toUpperCase()}
+                </Link>
+            ))}
+        </div>
+    );
 }
